@@ -1,3 +1,5 @@
+package tictactoe;
+
 import java.util.Scanner;
 
 class Game {
@@ -36,8 +38,8 @@ class Game {
 
     String startGame() {
         System.out.println("Welcome to Tic Tac Toe!");
-        System.out.println("Player 1: " + p1.getName() + " (" + p1.getSymbol() + ")");
-        System.out.println("Player 2: " + p2.getName() + " (" + p2.getSymbol() + ")");
+        System.out.println("tictactoe.Player 1: " + p1.getName() + " (" + p1.getSymbol() + ")");
+        System.out.println("tictactoe.Player 2: " + p2.getName() + " (" + p2.getSymbol() + ")");
         System.out.println("Let's begin!\n");
         for(int i = 0; i < 9; i++) {
             b.printBoard();

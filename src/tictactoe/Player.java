@@ -1,3 +1,5 @@
+package tictactoe;
+
 public class Player {
     private final String name;
     private final Symbol symbol;
